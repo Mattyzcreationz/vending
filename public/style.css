@@ -1,0 +1,47 @@
+/* styles.css */
+
+/* Style for the vending machine container */
+.vending-machine {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  /* Style for the vending machine title */
+  .vending-machine h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the vending machine item list */
+  .vending-machine ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Style for vending machine item links */
+  .vending-machine li {
+    margin-bottom: 10px;
+  }
+  
+  .vending-machine li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .vending-machine li a:hover {
+    background-color: #f0f0f0;
+  }
+  
